@@ -40,8 +40,8 @@ public class User {
     @Column(name = "user_password")
     private String userPassword;
     
-    @Enumerated(EnumType.STRING)  
-    private UserRole userRole; 
+    @Enumerated(EnumType.STRING)
+    private UserRole userRole;
 
 
 }
